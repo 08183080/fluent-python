@@ -33,3 +33,8 @@ class BingoCage:
         return self.pick()
 
 # end::BINGO[]
+    
+bingo = BingoCage(range(3))
+# print(bingo.pick())
+
+print(bingo())
