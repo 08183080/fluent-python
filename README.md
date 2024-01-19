@@ -22,6 +22,7 @@ def make_averager():
         return total / count
     return averager
 ``` 
+- [ ] ==运算符比较两个对象的值（对象中保存的数据），而is比较对象的标识
 ## 几种编程范式
 - [ ] 面向过程编程 (OPP)
 - [ ] 面向对象编程 (OOP)
