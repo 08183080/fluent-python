@@ -19,3 +19,8 @@ class Averager:
         self.series.append(new_value)
         total = sum(self.series)
         return total/len(self.series)
+
+avg = Averager()
+print(avg(10))
+print(avg(11))
+print(avg(12))
