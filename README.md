@@ -12,7 +12,7 @@
 ## Python KeyWord (关键词)
 - [ ] nonlocal, 它的作用是把变量标记为自由变量，即使在函数中为变量赋予新值了，也会变成自由变量
 ```
-def make_averager（　）:
+def make_averager():
     count = 0
     total = 0
     def averager(new_value):
@@ -22,3 +22,8 @@ def make_averager（　）:
         return total / count
     return averager
 ``` 
+## 几种编程范式
+- [ ] 面向过程编程 (OPP)
+- [ ] 面向对象编程 (OOP)
+- [ ] 函数式编程 (FP)
+- [ ] 面向AI编程 (AIP)
